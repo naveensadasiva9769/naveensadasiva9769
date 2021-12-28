@@ -141,6 +141,40 @@
  + width 
  - Irem:16px
 
+  Task 2 :
+
+  - Index.html
+  - 
+  - 
+  ### Responce Web Design
+  
+  ### Flex-box
+
+  + display
+     - none
+     - inline
+     - block
+     - inline-block
+  + position
+     - static
+     - relative
+     - absolute
+     - fixed
+     - sticky
+  + align-content
+  + align-self
+  + align-item
+  
+  - display
+      - flex
+          - flex-wrap
+          - justify-content
+          - flex-direction
+          - flex-flow
+
+
+
+
  
 
 
