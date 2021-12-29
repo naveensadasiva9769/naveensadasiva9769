@@ -3,9 +3,24 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+    <title>Registration</title>
+    <style>
+        .Registration {
+            text-align: center;
+            border: 3px solid black;
+            width: 20rem;
+            border-radius:10px;
+            background-color: cyan;
+        }
+        .card {
+            margin-left: 550px;
+            margin-top: 150px;
+        }
+    </style>
 </head>
-<body>
+<body class="card" style="background-color: darkgray;">
+    <div class="Registration">
+
     <form action="" method="git">
         <label for="uname">Enter First Name</label>
         <input type="text" name="uname" placeholder="Enter First Name" required>
@@ -14,9 +29,9 @@
         <input type="text" name="uname" placeholder="Enter Last Name" required>
         <br><br>
         <label>Gender</label>
-        <input type="radio">Male
-        <input type="radio">Female
-        <input type="radio">Others
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">Others
         <br><br>
         <label for="uname">Date Of Birth</label>
         <!-- <input type="Checkbox" name="" id=""> -->
@@ -46,6 +61,7 @@
         <input type="Submit" value="Register">
         <input type="Submit" value="Reset">
         <br><br>
+    </div>
 
 
 </body>

@@ -249,6 +249,15 @@
       - Text (text-white)
       - background (bg-secondary)
       - alerts (alert alert-primary)
+
+   + Grid System
+     - coi-sm-12 (Syntax )
+     - sm (small devices)
+     - md (medium devices)
+     - lg (large devices)
+     - xl (extra large devices)
+   + Model
+   + Table
       
 
 
