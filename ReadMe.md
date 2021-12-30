@@ -139,8 +139,8 @@
   Task 2 :
 
   - Index.html
-  - 
-  - 
+  - Registration.html
+  - Login.html
   ### Responce Web Design
   
   ### Flex-box
@@ -199,7 +199,7 @@
 
  Task3:
  
-   - Nabar with Responsive
+   - Navbar with Responsive
 
 
    - module (collection of functions and classes)
@@ -258,7 +258,144 @@
      - xl (extra large devices)
    + Model
    + Table
-      
+
+
+    ### JavaScript
+
+   + In 1995 'Brenden Eich' introduced JavaScript (ES-262) 
+   + JavaScript loosely toupled and dynamic-language
+   + It is a text-based programming language and we can use in client-side and server-side (Node.js) for dynamic web appications
+   - ECMA-Script (ES-6) Organization
+      - let & const 
+      - map ()
+      - arrow function
+      - classes
+      - spread operator
+      - rest parameter
+   + Datatypes 
+      - Number
+      - BigInt (2^53-1)
+      - String
+      - Boolean
+      - Undefine
+      - Null
+      - object
+      - Array 
+
+   + Variables
+      - var, let and const
+      - Scope 
+         - function level --> var
+         - block level --> let & const
+      - Redefine --> var & let
+      - Redeclare --> var
+   + 'typeof()'
+   + Object
+
+   ...
+
+   {
+      name:"Naveen",
+   }
+   ...
+
+   + Array
+
+   ### Alerts
+
+
+   + To generate notifications
+      - alert
+      - prompt (to take input from user)
+      - confirm
+
+
+   + console statements
+      - `console.log()`
+      - `console.info()`
+      - `console.warn()`
+      - `console.error()`
+
+
+   + Spread operator
+      - To change array elements from one array to another
+
+   ...
+
+      ...VariableName
+    ...
+
+   + Rest Parameter
+      - To handle function parameter
+
+   ...
+
+      ...parameter
+   ...
+
+   + Destructing of Array & Objects
+
+
+   + Functions
+      - function with functionName
+      ...
+
+      function demo(){
+         return x+y
+      } 
+      demo()
+      ...
+        - Anonymous function
+
+
+   + for-in
+     - 
+
+   + for-of
+     -
+
+
+
+   ### DOM
+
+     - Document object model
+     - Document
+     - History
+     - Window
+     - Navigator
+     
+   + DOM Methods
+      - `getElementById()`
+      - `getElementByClasssName()`
+      - `innerText`
+      - `textContent`
+      - `append`
+      - `apendChild`
+      - `innerHTML`
+      - `setAttribute()`
+      - `classList`
+      - `style`
+      - `src`
+
+   ### JSON
+
+    + JavaScript Object Notation
+        - To exchange information between application and server
+
+   ... 
+
+   {
+      "name":"Naveen N",
+      "salary":"10LPA",
+      "designation":"MERN Developer",
+      "mobile":123456789
+   }
+   ...
+
+
+
+
+    
 
 
  ### Reference Links
