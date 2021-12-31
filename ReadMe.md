@@ -394,6 +394,54 @@
 
 
 
+   + Props
+
+     - To pass data from one component to another component we will use Props
+     - Props are immutable
+
+   + UnionBank (Functional)
+      - AndhraBank (Functional)
+      - CorporationBank  (Class)
+
+   + States
+
+   - In react to maintain information we will use States
+   - We can maintain states in class component only (Before react16.8 version)
+   - To take state in react,
+    ...
+
+    constructor(){
+       super();
+       this.state={
+
+       }
+    }
+    ...
+   
+   - To update the state information in class component use `setState()` method
+   + To update the information in class component we have to follow component life cycle methods 
+      - `componentWillReceiveProps()`
+      - `componentWillMount()`
+      - `componentDidMount()`
+      - `componentShouldMount()`
+      - `componentWillUpdate()`
+      - `componentDidMount()`
+      - `componentWillUnmount()`
+
+   ### Hooks
+
+    + from react16.8 Hooks are introduced
+
+    - Parent-child1 --> child2 --> child3
+    - `useState()`
+    - `useEffect()`
+    - `useMemo()`
+    - `useRef()`
+    - `useContext()` 
+     
+
+
+
 
     
 
