@@ -1,6 +1,10 @@
+import ListRendering from "./components/ListRendering";
+
 function App(){
   return (
-    <h1>Welcome</h1>
+    // <h1>Welcome</h1>
+    <h1>ListRendering</h1>,
+    <ListRendering/>
   );
 }
 

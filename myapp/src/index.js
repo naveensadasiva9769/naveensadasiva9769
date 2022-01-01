@@ -10,16 +10,22 @@ import AndhraBank from './components/AndhraBank';
 import stateinClassComponent from './components/StateinClassComponent';
 import StateinClassComponent from './components/StateinClassComponent';
 import StateInFunctionalComponent from './components/StateInFunctionalComponent';
+import ListRendering from './components/ListRendering';
+import FormRendering from './components/FormRendering';
+import Home from './components/Home';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App />
-    <Functional/>
+    {/* <App /> */}
+    {/* <Functional/>
     <ClassComponent/> */}
     {/* <UnionBank/> */}
     {/* <AndhraBank/> */}
-    <StateinClassComponent/>
+    {/* <StateinClassComponent/> */}
     {/* <StateInFunctionalComponent/> */}
+    {/* <ListRendering/> */}
+    {/* <FormRendering/> */}
+    <Home/>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -438,6 +438,13 @@
     - `useMemo()`
     - `useRef()`
     - `useContext()` 
+
+
+
+    ### Routing in React
+
+    + To navigate (Route) from one Component to another
+      - install react-router-dom package by using `npm install react-router-dom`  
      
 
 
